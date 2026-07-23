@@ -1,8 +1,30 @@
 aid: altinity
 name: Altinity
-description: 'Altinity is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: big-data. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Altinity is the enterprise provider for open-source ClickHouse, the real-time
+  analytical database. It builds and operates Altinity.Cloud, a fully managed
+  ClickHouse service available on AWS, GCP, Azure and Hetzner, plus a
+  bring-your-own-cloud (BYOC) option, and delivers 24/7 expert support,
+  performance tuning, and training. Altinity is a leading ClickHouse contributor
+  and maintains widely used open-source tooling including the Altinity Kubernetes
+  Operator for ClickHouse, clickhouse-backup, the clickhouse-sink-connector, a
+  Grafana datasource plugin, Altinity Stable Builds, and an official MCP server
+  for AI agents. Its Altinity Cloud Manager (ACM) exposes a REST API for managing
+  environments and ClickHouse clusters programmatically.
 url: https://raw.githubusercontent.com/api-evangelist/altinity/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://altinity.com/wp-content/uploads/2025/06/sharing-icon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -15,7 +37,36 @@ modified: '2026-07-17'
 tags:
 - Company
 - Big Data
-apis: []
+- ClickHouse
+- Analytics
+- Database
+- Managed Cloud
+- Kubernetes
+- Real-Time Analytics
+- Open Source
+apis:
+- aid: altinity:altinity-auth-api
+  name: Altinity Auth API
+  description: The Auth API from Altinity — 8 operation(s) for auth.
+  humanURL: https://docs.altinity.com/altinitycloud/administratorguide/acm-api-quickstart/
+  baseURL: https://acm.altinity.cloud/api/
+  tags:
+  - Auth
+  properties:
+  - type: OpenAPI
+    url: openapi/altinity-auth-api-openapi.yml
+  - type: APIReference
+    url: https://acm.altinity.cloud/docs/
+  - type: Authentication
+    url: authentication/altinity-authentication.yml
+  - type: ErrorCatalog
+    url: errors/altinity-problem-types.yml
+  - type: Conventions
+    url: conventions/altinity-conventions.yml
+  - type: DataModel
+    url: data-model/altinity-data-model.yml
+  - type: Conformance
+    url: conformance/altinity-conformance.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -24,3 +75,52 @@ maintainers:
 common:
 - type: Website
   url: https://altinity.com/
+- type: DeveloperPortal
+  url: https://docs.altinity.com/
+- type: Documentation
+  url: https://docs.altinity.com/
+- type: APIReference
+  url: https://acm.altinity.cloud/docs/
+- type: GettingStarted
+  url: https://docs.altinity.com/altinitycloud/altinity-cloud-101/
+- type: Blog
+  url: https://altinity.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/altinity
+- type: Support
+  url: https://docs.altinity.com/support/
+- type: Pricing
+  url: https://altinity.com/clickhouse-pricing/
+- type: SignUp
+  url: https://acm.altinity.cloud/signup
+- type: TermsOfService
+  url: https://altinity.com/wp-content/uploads/2022/09/Altinity.Cloud-Terms-of-Service.pdf
+- type: PrivacyPolicy
+  url: https://altinity.com/privacy-policy/
+- type: Authentication
+  url: authentication/altinity-authentication.yml
+- type: Packages
+  url: packages/altinity-packages.yml
+- type: SDKs
+  url: packages/altinity-packages.yml
+- type: MCPServer
+  url: mcp/altinity-mcp.yml
+- type: AgentSkill
+  url: skills/_index.yml
+- type: LLMsTxt
+  url: llms/altinity-llms.txt
+- type: Lifecycle
+  url: lifecycle/altinity-lifecycle.yml
+- type: ChangeLog
+  url: changelog/altinity-changelog.yml
+- type: Conventions
+  url: conventions/altinity-conventions.yml
+- type: Conformance
+  url: conformance/altinity-conformance.yml
+- type: DomainSecurity
+  url: security/altinity-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

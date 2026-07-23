@@ -1,0 +1,38 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.altinity.com/altinitycloud/administratorguide/acm-api-quickstart/
+api: Altinity Cloud Manager (ACM) API
+base_url: https://acm.altinity.cloud/api/
+authentication:
+  style: api-key
+  header: X-Auth-Token
+  key_types:
+  - ACM API key (generated under My Account > API Access; default 24h expiry, adjustable)
+  - Login token (obtained via POST /login with account credentials)
+  - Anywhere API token (single per account, under Anywhere API Access)
+  oauth:
+    provider: Auth0
+    operations: [GetSingleAuth, DoSingleAuth]
+    notes: Single sign-on via Auth0 oAuth token exchange (GET/POST /singleauth).
+  see: authentication/altinity-authentication.yml
+idempotency:
+  supported: false
+  notes: No idempotency-key header/parameter is documented for the ACM API.
+pagination:
+  supported: unknown
+  notes: The published spec (auth/login/signup surface) declares no list endpoints; pagination is not documented.
+versioning:
+  scheme: calver
+  in: spec-version
+  notes: ACM API version tracks the ACM build (CalVer YY.M.PATCH). No URI/header API version selector documented.
+  see: lifecycle/altinity-lifecycle.yml
+error_envelope:
+  shape: '{"error": "<message>", "code": <int>}'
+  format: legacy-json
+  see: errors/altinity-problem-types.yml
+request_tracing:
+  request_id_header: null
+  notes: No request-id/trace header documented.
+rate_limiting:
+  signaled: false
+  notes: No rate-limit policy or headers documented.

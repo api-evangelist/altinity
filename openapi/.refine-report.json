@@ -1,0 +1,14 @@
+{
+  "provider": "altinity",
+  "sources": [
+    "altinity-auth-api-openapi.yml"
+  ],
+  "outputs": [
+    "altinity-auth-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}

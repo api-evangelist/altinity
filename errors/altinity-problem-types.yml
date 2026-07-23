@@ -1,0 +1,30 @@
+generated: '2026-07-17'
+method: derived
+source: openapi/altinity-acm-openapi-original.json
+format: legacy-json
+envelope:
+  description: >-
+    ACM API errors return a JSON body with an "error" message string and a
+    numeric "code" field (e.g. {"error":"","code":404}). The published spec does
+    not use RFC 9457 application/problem+json.
+  fields:
+  - error
+  - code
+problems:
+- status: 401
+  title: Unauthorized
+  description: Authentication failed or the X-Auth-Token is missing/expired.
+  source_operations:
+  - Login
+  - LoginVerify
+  - SystemProbe
+  - GetSingleAuth
+  - DoSingleAuth
+- status: 404
+  title: Not found
+  description: The requested resource or token was not found.
+  source_operations:
+  - Login
+  - LoginRecovery
+  - LoginReset
+  - SignupConfirm

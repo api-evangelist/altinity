@@ -1,0 +1,12 @@
+generated: '2026-07-17'
+method: generated
+source: openapi/altinity-acm-openapi-original.json
+skills:
+- file: altinity-authenticate.md
+  name: Authenticate to the Altinity Cloud Manager API
+  api: openapi/altinity-acm-openapi-original.json
+  operations: [Login, LoginVerify, GetSingleAuth, DoSingleAuth, SystemProbe]
+- file: altinity-signup-trial.md
+  name: Create an Altinity.Cloud trial account
+  api: openapi/altinity-acm-openapi-original.json
+  operations: [SignupQuick, SignupCheck, SignupConfirm]

@@ -1,0 +1,58 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/altinity
+notes: >-
+  Altinity does not ship a dedicated client SDK for the Altinity Cloud Manager
+  (ACM) REST API (auth is a simple X-Auth-Token header). Its published,
+  first-party distributables are open-source ClickHouse operational tooling plus
+  a Terraform provider that wraps the Altinity.Cloud control plane. The Terraform
+  provider is the closest thing to an ACM API client and is marked as an SDK.
+packages:
+- language: hcl
+  registry: terraform
+  name: Altinity/altinitycloud
+  url: https://registry.terraform.io/providers/Altinity/altinitycloud/latest
+  install: 'terraform { required_providers { altinitycloud = { source = "Altinity/altinitycloud" } } }'
+  official: true
+  role: sdk
+  description: Terraform provider for managing Altinity.Cloud environments and ClickHouse clusters (wraps the ACM API).
+- language: go
+  registry: github
+  name: altinity/clickhouse-operator
+  url: https://github.com/Altinity/clickhouse-operator
+  install: 'kubectl apply -f https://raw.githubusercontent.com/Altinity/clickhouse-operator/master/deploy/operator/clickhouse-operator-install-bundle.yaml'
+  official: true
+  role: operator
+  description: Altinity Kubernetes Operator for ClickHouse (create/configure/manage clusters on Kubernetes).
+- language: go
+  registry: github
+  name: altinity/clickhouse-backup
+  url: https://github.com/Altinity/clickhouse-backup
+  install: go install github.com/Altinity/clickhouse-backup/v2/cmd/clickhouse-backup@latest
+  official: true
+  role: cli
+  description: Backup and restore ClickHouse using object storage.
+- language: python
+  registry: github
+  name: altinity/clickhouse-sink-connector
+  url: https://github.com/Altinity/clickhouse-sink-connector
+  install: docker pull altinity/clickhouse-sink-connector
+  official: true
+  role: connector
+  description: Replicate data from MySQL, Postgres and MongoDB to ClickHouse.
+- language: typescript
+  registry: github
+  name: altinity/clickhouse-grafana
+  url: https://github.com/Altinity/clickhouse-grafana
+  install: grafana-cli plugins install vertamedia-clickhouse-datasource
+  official: true
+  role: plugin
+  description: Altinity Grafana datasource plugin for ClickHouse.
+- language: go
+  registry: github
+  name: altinity/altinity-mcp
+  url: https://github.com/Altinity/altinity-mcp
+  install: go install github.com/altinity/altinity-mcp/cmd/altinity-mcp@latest
+  official: true
+  role: mcp-server
+  description: Model Context Protocol server to use ClickHouse databases in AI agents.

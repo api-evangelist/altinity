@@ -1,0 +1,31 @@
+generated: '2026-07-17'
+method: derived
+source: openapi/altinity-acm-openapi-original.json
+notes: >-
+  Derived from the published ACM auth/login/signup surface only. The broader ACM
+  domain (Environment, Cluster, Node, Backup) is documented at docs.altinity.com
+  but not represented in reference.json, so it is listed as external context, not
+  derived relationships.
+entities:
+- name: Account
+  description: An Altinity.Cloud account/organization created via signup.
+  operations: [SignupQuick, SignupCheck, SignupConfirm]
+- name: Session
+  description: An authenticated session/token issued by login (optionally with 2FA or Auth0 SSO).
+  operations: [Login, LoginVerify, LoginReset, LoginRecovery, GetSingleAuth, DoSingleAuth]
+- name: System
+  description: ACM system health probe.
+  operations: [SystemProbe]
+relationships:
+- from: Session
+  to: Account
+  type: belongs_to
+  via: login/token
+external_context:
+  documented_but_not_in_spec:
+  - Environment
+  - Cluster
+  - Node
+  - Backup
+  - QueryApiEndpoint
+  reference: https://docs.altinity.com/altinitycloud/

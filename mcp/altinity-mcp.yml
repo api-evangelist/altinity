@@ -1,0 +1,35 @@
+generated: '2026-07-17'
+method: searched
+status: published
+source: https://github.com/Altinity/altinity-mcp
+server:
+  name: altinity-mcp
+  description: >-
+    Official Altinity Model Context Protocol (MCP) server for using ClickHouse
+    databases in AI agents. Written in Go, Apache-2.0. Exposes SQL query
+    execution and dynamically generates tools and resource templates from the
+    connected ClickHouse schema (views/tables). Supports OAuth 2.0 / JWE
+    authentication and TLS.
+  language: go
+  transport:
+  - stdio
+  - http
+  - sse
+  install:
+  - method: docker
+    command: docker run ghcr.io/altinity/altinity-mcp:latest
+  - method: go
+    command: go install github.com/altinity/altinity-mcp/cmd/altinity-mcp@latest
+  - method: source
+    command: git clone https://github.com/Altinity/altinity-mcp && go build ./cmd/altinity-mcp
+  repo: https://github.com/Altinity/altinity-mcp
+tools:
+- name: execute_query
+  description: Run a SQL query against the connected ClickHouse database, with optional result limiting.
+- name: (dynamic)
+  description: >-
+    Tools and resource templates auto-generated from ClickHouse views and tables
+    (schema/table introspection) at runtime.
+notes: >-
+  This MCP server targets ClickHouse databases (the data plane), not the
+  Altinity Cloud Manager control-plane API. It is a first-party Altinity project.

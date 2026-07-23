@@ -1,0 +1,32 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/
+product: Altinity Cloud Manager (ACM) + ACM API
+scheme: calver
+pattern: YY.M.PATCH
+current: 26.2.43
+notes: >-
+  The live release-notes page is the source of truth; only a recent window is
+  captured here. Dates are as reported by the Altinity docs at capture time.
+entries:
+- version: 26.2.33
+  date: '2026-06-10'
+  highlights: [Latest stable ACM release in the 26.2 line.]
+- version: 26.1.41
+  date: '2026-04-07'
+  highlights: [26.1 major line.]
+- version: 25.7.31
+  date: '2026-02-02'
+  highlights: [Maintenance release.]
+- version: 25.6.40
+  date: '2026-01-13'
+  breaking: false
+  highlights: [Hotfix for Auth0 login, system improvements.]
+- version: 25.5.17
+  date: '2025-10-07'
+  additions: true
+  highlights: [Added ClickHouse Query API Endpoints (beta).]
+- version: 25.3.34
+  date: '2025-06-25'
+  additions: true
+  highlights: [Iceberg catalog support additions.]

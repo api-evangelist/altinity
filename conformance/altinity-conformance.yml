@@ -1,0 +1,25 @@
+generated: '2026-07-17'
+method: derived
+source: openapi/altinity-acm-openapi-original.json
+standards:
+- id: openapi-3.0
+  conforms: true
+  evidence: Published spec is OpenAPI 3.0.0 (acm.altinity.cloud/api/reference.json).
+- id: api-key-auth
+  conforms: true
+  evidence: securitySchemes ApiKeyAuth (apiKey, header X-Auth-Token).
+- id: oauth2
+  conforms: partial
+  evidence: SSO via Auth0 oAuth token exchange (GetSingleAuth/DoSingleAuth); no oauth2 securityScheme declared in spec.
+- id: oidc
+  conforms: false
+  evidence: No /.well-known/openid-configuration served (host returns SPA shell); Auth0 handles identity externally.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: Errors use a legacy {error, code} JSON envelope, not application/problem+json.
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: No /.well-known/security.txt (host returns the SPA index for all well-known paths).
+- id: idempotency
+  conforms: false
+  evidence: No idempotency-key header documented.

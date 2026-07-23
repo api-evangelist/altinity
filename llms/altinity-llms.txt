@@ -1,0 +1,460 @@
+# Altinity® Documentation
+> Altinity® Documentation
+## Altinity.Cloud - Quick Start Guide
+- [Altinity.Cloud 101](https://docs.altinity.com/altinitycloud/altinity-cloud-101/): Getting started with Altinity.Cloud
+
+- [AWS remote provisioning](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byoc/aws-remote-provisioning/): Configuring your AWS account
+
+  *Keywords: AWS remote provisioning*
+- [Creating a trial account](https://docs.altinity.com/altinitycloud/quickstartguide/createaccount/): The first step to working with Altinity.Cloud
+
+- [Kubernetes requirements](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byok/kubernetes-requirements/): Configuring your Kubernetes environment
+
+  *Keywords: managed clickhouse, Altinity.Cloud anywhere, clickhouse cloud*
+- [Azure remote provisioning](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byoc/aks-remote-provisioning/): Configuring your Azure account
+
+  *Keywords: Azure remote provisioning*
+- [Converting a trial account to a paid subscription](https://docs.altinity.com/altinitycloud/quickstartguide/convert-trial-to-subscription/): Moving to production
+
+  *Keywords: paid, subscription, convert, trial, to, paid, subscription, convert, trial, to, paid, account*
+- [Creating an EKS cluster with Altinity's eks-terraform module](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byok/terraform/): The easiest way to configure an EKS cluster
+
+  *Keywords: terraform, aws, eks*
+- [Responsibilities](https://docs.altinity.com/altinitycloud/responsibilities/): What we have to do, what you have to do, and what we do together to keep you secure
+
+- [GCP remote provisioning](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byoc/gke-remote-provisioning/): Configuring your GCP account
+
+  *Keywords: GCP remote provisioning, Google BYOC environment, Google Cloud Bring Your Own Cloud, Altinity Terraform provider GCP*
+- [Hetzner remote provisioning](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byoc/hetzner-remote-provisioning/): Configuring your Hetzner account
+
+  *Keywords: Remote provisioning*
+- [Connecting Your Kubernetes Environment to Altinity.Cloud](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byok/connecting/): Tying everything together
+
+  *Keywords: managed clickhouse, Altinity.Cloud connection*
+- [Altinity.Cloud in the AWS Marketplace](https://docs.altinity.com/altinitycloud/quickstartguide/aws-marketplace-subscription/): Subscribing to Altinity.Cloud on AWS
+
+- [Altinity.Cloud in the GCP Marketplace](https://docs.altinity.com/altinitycloud/quickstartguide/gcp-marketplace-subscription/): Subscribing to Altinity.Cloud on GCP
+
+- [Setting up backups](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byok/backups/): Configuring storage for backups
+
+  *Keywords: managed clickhouse, Altinity.Cloud guide, clickhouse cloud backups*
+- [Altinity Cloud Manager Introduction](https://docs.altinity.com/altinitycloud/quickstartguide/clusterviewexplore/): Using the Altinity Cloud Manager (ACM) to manage your ClickHouse® clusters 
+
+- [Disconnecting from Altinity.Cloud](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byok/disconnecting/): Using ClickHouse® without Altinity.Cloud
+  *Keywords: managed clickhouse, Altinity.Cloud Anywhere disconnection*
+- [Deleting Managed ClickHouse® Environments in Kubernetes](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byok/deleting/): Deleting your ClickHouse® cluster
+  *Keywords: Altinity.Cloud Anywhere deleting*
+- [Creating a new Cluster](https://docs.altinity.com/altinitycloud/quickstartguide/clusterfirsttime/): Creating a ClickHouse® cluster in a few easy steps
+
+- [Quick Start Guide](https://docs.altinity.com/altinitycloud/quickstartguide/): The minimal steps to get Altinity.Cloud running with your first cluster.
+
+- [Running Altinity.Cloud in Our Cloud](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-our-cloud/): Using Altinity&#39;s cloud account
+
+- [Running Altinity.Cloud in Your Cloud (BYOC)](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byoc/): Using your cloud account
+
+- [Running Altinity.Cloud in Your Kubernetes environment (BYOK)](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byok/): Using your Kubernetes infrastructure
+
+  *Keywords: managed clickhouse, Altinity.Cloud anywhere, clickhouse cloud*
+## Altinity.Cloud - User Guide
+- [Cluster Overview](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/cluster-overview/): A summary view of your cluster&#39;s resources
+- [Rescaling your cluster](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/configuring-cluster-resources/): Configuring the compute resources your ClickHouse® cluster will use
+- [Grafana dashboards](https://docs.altinity.com/altinitycloud/userguide/monitoring-a-cluster/grafana-dashboards/): Monitoring your ClickHouse® cluster with the ACM&#39;s built-in Grafana dashboards
+
+- [The Query tab](https://docs.altinity.com/altinitycloud/userguide/cluster-explorer/query-tab/): Execute SQL statements in your ClickHouse® cluster
+- [Working with your account](https://docs.altinity.com/altinitycloud/userguide/accounts/): Creating and configuring your Altinity.Cloud account
+
+- [The Schema tab](https://docs.altinity.com/altinitycloud/userguide/cluster-explorer/schema-tab/): View the databases and tables in your ClickHouse® cluster
+- [Configuring Storage](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/configuring-storage/): Setting up storage for your ClickHouse® cluster
+- [Viewing clusters in the ACM](https://docs.altinity.com/altinitycloud/userguide/clustersview/): Details of the ACM user interface
+
+- [Configuring Endpoint Connections](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/configuring-connections/): Defining how the world talks to your ClickHouse® cluster
+  *Keywords: custom, domain, allowed, ip, addresses, allowed, addresses, configuring, connections*
+- [Health checks](https://docs.altinity.com/altinitycloud/userguide/monitoring-a-cluster/health-checks/): Using the ACM&#39;s automated health checks
+
+- [Upgrading a Cluster](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/upgrading-a-cluster/): How to upgrade an existing ClickHouse® cluster
+
+- [The Workload tab](https://docs.altinity.com/altinitycloud/userguide/cluster-explorer/workload-tab/): See what&#39;s happening in your ClickHouse® cluster
+- [The DBA Tools tab](https://docs.altinity.com/altinitycloud/userguide/cluster-explorer/dba-tools-tab/): Use system-level tools to investigate your ClickHouse® cluster
+- [Configuring Kafka Connections](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/configuring-kafka-connections/): Connecting your ClickHouse® cluster to a Kafka® server
+- [Rescaling a Cluster](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/rescaling-a-cluster/): How to rescale an existing ClickHouse® cluster
+
+- [The API Endpoints tab (beta)](https://docs.altinity.com/altinitycloud/userguide/cluster-explorer/api-endpoints-tab/): Creating REST endpoints from saved queries
+- [Configuring Data Lake Connections](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/configuring-data-lake-catalogs/): Working with Data Lakes in ClickHouse®
+- [Importing a Dataset](https://docs.altinity.com/altinitycloud/userguide/cluster-explorer/importing-a-dataset/): Loading sample data into your ClickHouse® cluster
+- [Notifications](https://docs.altinity.com/altinitycloud/userguide/monitoring-a-cluster/notifications/): Getting information from system-level messages in the ACM 
+
+- [Stopping, resuming, or restarting a cluster](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/stopping-resuming-or-restarting-a-cluster/): How to stop or start an existing ClickHouse® cluster 
+
+- [Configuring Settings](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/configuring-settings/): Setting properties and environment variables for your ClickHouse® clusters
+- [Exporting a Cluster's settings](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/exporting-a-clusters-configuration/): How to export a ClickHouse® cluster&#39;s settings
+
+- [Configuring Profiles](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/configuring-profiles/): Setting up profiles for groups of ClickHouse® users
+- [Publishing a Cluster's Configuration](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/publishing-a-clusters-configuration/): Pushing changes to your ClickHouse® cluster
+- [Managing Users](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/managing-users/): Controlling user accounts in your ClickHouse® cluster
+- [Working with a Cluster's History](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/working-with-a-clusters-history/): Working with changes made to a ClickHouse® cluster
+- [Viewing Cluster logs](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/cluster-logs/): See what&#39;s going on inside the system
+
+- [Configuring Activity Schedules](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/configuring-activity-schedules/): Setting schedules for your ClickHouse® cluster to stop, start, or rescale
+- [Launching a Replica Cluster](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/launching-a-replica-cluster/): How to create a replica of a ClickHouse® cluster
+- [Configuring Backup Settings](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/configuring-backup-settings/): Defining how, when, and where your data is backed up
+- [Cloning a Cluster](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/cloning-a-cluster/): How to clone a ClickHouse® cluster
+  *Keywords: cloning a cluster, cluster cloning*
+- [Configuring Annotations](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/configuring-annotations/): Annotating nodes in your ClickHouse® cluster
+- [Restoring a Cluster from a Backup](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/restoring-a-cluster-backup/): How to restore a backed up ClickHouse® cluster
+- [Creating a Cluster Backup](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/creating-a-cluster-backup/): How to back up a ClickHouse® cluster
+- [Cluster alerts](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/cluster-alerts/): Defining alerts and the events that trigger them
+
+- [Enabling Swarms](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/enabling-swarms/): Enabling swarms in a ClickHouse® cluster
+
+- [Destroying a Cluster](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/destroying-a-cluster/): How to destroy a ClickHouse® cluster
+
+- [Copying data between Clusters](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/copying-data-between-clusters/): Copying data from one ClickHouse® cluster to another
+- [Locking a Cluster](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/locking-a-cluster/): How to lock a ClickHouse® cluster
+- [The Cluster Explorer](https://docs.altinity.com/altinitycloud/userguide/cluster-explorer/): Working directly with a ClickHouse® cluster
+
+- [User Guide](https://docs.altinity.com/altinitycloud/userguide/): Instructions on general use of Altinity.Cloud
+
+- [Configuring a Cluster](https://docs.altinity.com/altinitycloud/userguide/configuring-a-cluster/): How to configure ClickHouse® clusters
+
+  *Keywords: uptime schedules*
+- [Monitoring a Cluster](https://docs.altinity.com/altinitycloud/userguide/monitoring-a-cluster/): How to monitor and manager your ClickHouse® clusters&#39; performance
+
+- [Cluster Actions](https://docs.altinity.com/altinitycloud/userguide/cluster-actions/): Common cluster management tasks
+
+## Altinity.Cloud - Administrator Guide
+## Altinity.Cloud - Security Guide
+## Altinity.Cloud - Connecting to Altinity.Cloud
+## Altinity.Cloud - Altinity.Cloud Demos
+## Altinity Kubernetes Operator
+## Altinity Stable Builds
+## Project Antalya
+## Other Pages
+- [Classes of Failures](https://docs.altinity.com/operationsguide/availability-and-recovery/classes-of-failure/): The types of failures that can occur.
+
+- [Install Superset](https://docs.altinity.com/integrations/clickhouse-and-superset/install-superset/): Superset installation instructions
+
+- [Zookeeper Installation and Configuration](https://docs.altinity.com/operationsguide/clickhouse-zookeeper/zookeeper-installation/): How to configure Zookeeper to work best with ClickHouse®
+
+- [ClickHouse® High Availability Architecture](https://docs.altinity.com/operationsguide/availability-and-recovery/availability-architecture/): The best practices to keep ClickHouse® available.
+
+- [Connect Superset to ClickHouse®](https://docs.altinity.com/integrations/clickhouse-and-superset/connect-clickhouse-to-superset/): How to connect Superset to ClickHouse®
+
+- [Altinity Stable® Builds Debian Install Guide](https://docs.altinity.com/altinitystablebuilds/stablequickstartguide/deb-install/): How to install the Altinity Stable® Builds for ClickHouse® on Debian based systems.
+
+- [FIPS-Compatible Altinity Stable® Builds](https://docs.altinity.com/altinitystablebuilds/fips-compatible-altinity-builds/): Altinity Stable® Builds with FIPS 140-3 support
+
+- [Zookeeper Monitoring](https://docs.altinity.com/operationsguide/clickhouse-zookeeper/zookeeper-monitoring/): Verifying Zookeeper and ClickHouse® are working together.
+
+- [Zookeeper Recovery](https://docs.altinity.com/operationsguide/clickhouse-zookeeper/zookeeper-recovery/): How to recover when Zookeeper has issues.
+
+- [ClickHouse® Disaster Recovery Architecture](https://docs.altinity.com/operationsguide/availability-and-recovery/recovery-architecture/): How to make ClickHouse® more resilient
+
+- [Create Charts from ClickHouse® Data](https://docs.altinity.com/integrations/clickhouse-and-superset/add-dashboards/): Build stunning dashboards populated by ClickHouse® data.
+
+- [Altinity Kubernetes Operator for ClickHouse® Settings](https://docs.altinity.com/altinitykubernetesoperator/kubernetesoperatorguide/clickhouseoperatorsettings/): Settings and configurations for the Altinity Kubernetes Operator for ClickHouse®
+
+- [Altinity Stable® Builds RPM Install Guide](https://docs.altinity.com/altinitystablebuilds/stablequickstartguide/rpm-install/): How to install the Altinity Stable® Builds for ClickHouse® on RPM based systems
+
+- [Best Practices](https://docs.altinity.com/altinitycloud/securityguide/general-security-practices/): What we&#39;ve learned about keeping your ClickHouse® clusters and data secure
+
+- [ClickHouse® Cluster Settings](https://docs.altinity.com/altinitykubernetesoperator/kubernetesoperatorguide/clustersettings/): Settings and configurations for ClickHouse® clusters and nodes
+
+- [Altinity Stable® Builds Docker Install Guide](https://docs.altinity.com/altinitystablebuilds/stablequickstartguide/docker-install/): How to install the Altinity Stable® Builds for ClickHouse® with Docker
+
+- [Legacy ClickHouse® Altinity Stable® Releases Install Guide](https://docs.altinity.com/altinitystablebuilds/stablequickstartguide/legacy-altinity-stable-install/): How to install the ClickHouse® Altinity Stable® Releases from packagecloud.io.
+
+- [Cluster Connection Details](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/clusteraccesspoint/): How to view your ClickHouse® cluster&#39;s access information.
+
+- [Project Antalya Concepts Guide](https://docs.altinity.com/altinityantalya/antalya-concepts/): What is Project Antalya, why did we build it, and how do I set it up?
+- [Disconnecting an Environment](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/deleting-an-environment/disconnecting-your-environment/): Disabling Altinity&#39;s Access to Your Cluster
+
+- [Editing an Environment](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-actions/editing-an-environment/): Making changes
+
+- [General Environment Configuration](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/general-config/): High-level settings for your Environment
+
+- [Installing the Operator](https://docs.altinity.com/altinitykubernetesoperator/quickstartinstallation/): Getting the operator installed
+
+- [Managing your bill](https://docs.altinity.com/altinitycloud/administratorguide/billing/billing/): How to track expenses, estimate upcoming costs, and pay invoices
+
+- [Setting up a Kafka® connection](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/connecting_to_kafka/setting_up_a_kafka_connection/): Defining the Kafka server to ClickHouse®
+
+- [The Cluster Restore Wizard](https://docs.altinity.com/altinitycloud/administratorguide/backing-up-and-restoring-data/cluster-restore-wizard/): The easy way to restore from a backup
+
+- [Viewing your Environments](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environments-view/): Displaying all the Environments in your Altinity.Cloud account
+
+- [Common security tasks](https://docs.altinity.com/altinitycloud/securityguide/common-tasks/): Things you&#39;ll likely need to do
+
+- [Working with User Accounts](https://docs.altinity.com/altinitycloud/administratorguide/useraccounts/): Managing users and their roles and permissions
+
+  *Keywords: login settings*
+- [Account Management](https://docs.altinity.com/altinitycloud/securityguide/account-management/): How to manage Altinity.Cloud accounts.
+
+- [Configuring a Kafka® connection](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/connecting_to_kafka/configuring_a_kafka_connection/): Setting up connection parameters
+
+- [Configuring Cluster Connections](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/configure-cluster-connections/): Configuring the connections to your ClickHouse® cluster
+
+- [Creating Swarm Clusters](https://docs.altinity.com/altinityantalya/antalya-quick-start-guide/working-with-swarms/): Getting started with swarms
+- [Creating an Environment](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/creating-an-environment/): Getting started with a new Environment 
+
+  *Keywords: creating an environment, environment creation, environment setup*
+- [Creating your first ClickHouse® cluster](https://docs.altinity.com/altinitykubernetesoperator/kubernetesquickstartguide/quickcluster/): How to create a cluster and make sure it&#39;s running 
+
+- [Exporting an Environment](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-actions/exporting-an-environment/): Saving a copy of your Environment&#39;s state
+
+- [Integrating Datadog](https://docs.altinity.com/altinitycloud/administratorguide/integrations/datadog/): Connecting Datadog to your Altinity.Cloud environment 
+
+- [Configuring Kubernetes](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/kubernetes-configuration/): Working with your Kubernetes infrastructure
+
+- [Restoring an Individual Table](https://docs.altinity.com/altinitycloud/administratorguide/backing-up-and-restoring-data/restoring-an-individual-table/): When you don&#39;t need to restore everything
+- [Ways to Save on your Altinity.Cloud bill](https://docs.altinity.com/altinitycloud/administratorguide/billing/ways-to-save/): Keeping your costs in line
+
+- [Role-Based Access and Security Tiers](https://docs.altinity.com/altinitycloud/securityguide/altinity-cloud-roles/): Altinity.Cloud hierarchy and role-based access.
+
+- [Querying Data with Swarms](https://docs.altinity.com/altinityantalya/antalya-quick-start-guide/querying-data-with-swarms/): Using swarms to speed up queries
+- [Adding Persistent Storage to Your Cluster](https://docs.altinity.com/altinitykubernetesoperator/kubernetesquickstartguide/quickpersistentstorage/): Making sure your data stays if your pods go away
+
+- [Cloning a Database](https://docs.altinity.com/altinitycloud/administratorguide/backing-up-and-restoring-data/cloning-a-database/): Making a copy (not a replica) of a ClickHouse® database
+
+- [Connecting with DBeaver](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/dbeaver/): Creating a connection to Altinity.Cloud from DBeaver.
+
+- [Deleting Clusters, Data, and Everything](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/deleting-an-environment/deleting-everything-in-your-environment/): Deleting everything, including ClickHouse® clusters and data
+
+- [Integrating Grafana Cloud](https://docs.altinity.com/altinitycloud/administratorguide/integrations/grafana/): Connecting Grafana Cloud to your Altinity.Cloud environment
+
+- [Configuring Node Defaults](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/node-defaults/): Defining node properties
+
+- [Reconfiguring your Environment](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-actions/reconfiguring-your-environment/): Resetting your Environment 
+
+- [Integrating SSO via Auth0 into the Altinity.Cloud login page](https://docs.altinity.com/altinitycloud/securityguide/auth0-and-sso/): How to set up single sign-on in Altinity.Cloud
+
+- [Working with Data Lakes](https://docs.altinity.com/altinityantalya/antalya-quick-start-guide/working-with-data-lakes/): Creating a data lake and querying it
+- [Working with Kafka® data in ClickHouse®](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/connecting_to_kafka/working_with_kafka_data/): Putting things together
+- [Upgrading the Operator](https://docs.altinity.com/altinitykubernetesoperator/upgrade/): How to move to a different version of the Altinity Kubernetes Operator for ClickHouse®
+
+- [Converting a Table's Engine to ReplicatedMergeTree](https://docs.altinity.com/altinitycloud/administratorguide/backing-up-and-restoring-data/converting-a-tables-engine-to-rmt/): Adding replication support to a table
+
+- [Altinity API Guide](https://docs.altinity.com/altinitycloud/administratorguide/acm-api-quickstart/): How to use Altinity APIs
+
+- [Connecting with clickhouse-client](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/clickhouseclient/): How to install and connect to ClickHouse® clusters with `clickhouse-client`.
+
+  *Keywords: clickhouse client, clickhouse-client, clickhouse client mac, install clickhouse client*
+- [Deleting an Environment Altinity Can't Connect To](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/deleting-an-environment/deleting-an-environment-altinity-cant-connect-to/): Housekeeping for an unreachable environment
+
+- [Enabling Replication](https://docs.altinity.com/altinitykubernetesoperator/kubernetesquickstartguide/quickzookeeper/): Adding replication to your ClickHouse® cluster
+
+- [FIPS-compatible Deployment Example](https://docs.altinity.com/altinitykubernetesoperator/kubernetesoperatorguide/fips-configuration/): Deploying the Operator in a FIPS-compatible posture
+
+- [Integrating Prometheus](https://docs.altinity.com/altinitycloud/administratorguide/integrations/prometheus/): Connecting Prometheus to your Altinity.Cloud environment 
+
+- [Defining Resource Limits](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/resource-limits/): Setting things up
+
+- [Using OAuth with Project Antalya](https://docs.altinity.com/altinityantalya/integrating-oauth/): How to use ClickHouse® with an OAuth provider
+
+  *Keywords: oauth, jwts, keycloak*
+- [Accessing an AWS MSK cluster from Altinity.Cloud](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/amazon-vpc-endpoint-services-kafka/): How to connect Altinity.Cloud to Amazon MSK within your VPC
+
+- [Altinity Access to ClickHouse®](https://docs.altinity.com/altinitycloud/securityguide/altinity-cloud-access/): Controlling Altinity personnel&#39;s access to ClickHouse® data and cluster administration
+
+- [Configuring Backups](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/backups/): Automating backups of your data
+
+- [Command and Configuration Reference](https://docs.altinity.com/altinityantalya/antalya-reference/): The technical details you&#39;ll need to make the most of Antalya
+- [Integrating Loki](https://docs.altinity.com/altinitycloud/administratorguide/integrations/loki/): Connecting Loki to your Altinity.Cloud environment 
+
+- [Prerequisites](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/deleting-an-environment/keeping-your-clusters-and-data/delete-environment-prerequisites/): Things to do and things you need before you get started
+
+- [Troubleshooting Altinity Builds](https://docs.altinity.com/altinitystablebuilds/troubleshooting-stable-builds/): Figuring out what&#39;s wrong when something goes wrong
+
+- [Working with Object Disks](https://docs.altinity.com/altinitycloud/administratorguide/objectdisks/): Using object storage _and_ block storage
+
+- [Altinity.Cloud Demo Environments](https://docs.altinity.com/altinitycloud/demo-cluster/): Demo clusters for testing ClickHouse® connections and playing with publicly available data.
+
+- [AWS and Network Access](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/deleting-an-environment/keeping-your-clusters-and-data/delete-environment-aws-access/): Verifying your AWS and Network access before Deleting Anything
+
+- [Configuring Environment Metrics](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/metrics/): Defining the how and where of observability data 
+
+- [Replicating Altinity.Cloud backups to S3](https://docs.altinity.com/altinitycloud/administratorguide/integrations/s3-backup-replication/): Configuring external S3 buckets for Altinity.Cloud backups 
+
+- [Setting up logging](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byok/logging/): Configuring storage for logging
+
+  *Keywords: managed clickhouse, Altinity.Cloud guide, clickhouse cloud logging*
+- [Working with Hybrid Tables](https://docs.altinity.com/altinityantalya/antalya-quick-start-guide/working-with-hybrid-tables/): Using a single query against hot and cold storage
+- [Working with Replication](https://docs.altinity.com/altinitykubernetesoperator/kubernetesquickstartguide/working-with-replication/): Using the ReplicatedMergeTree engine
+
+- [Bonus: Adding a Shard to your ClickHouse® Cluster](https://docs.altinity.com/altinitykubernetesoperator/kubernetesquickstartguide/adding-a-second-shard/): Enabling horizontal scaling once you&#39;ve got 5 TB of data or so
+
+- [Bringing it all Together](https://docs.altinity.com/altinityantalya/antalya-quick-start-guide/bringing-it-all-together/): Querying data lakes with swarm clusters
+- [Configuring Logging](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/logs/): Setting up logging
+
+- [Replacing Edge-Proxy](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/deleting-an-environment/keeping-your-clusters-and-data/delete-environment-replace-edge-proxy/): Replacing Edge-Proxy
+
+- [Uninstalling the Operator](https://docs.altinity.com/altinitykubernetesoperator/quickuninstall/): How to uninstall the Altinity Kubernetes Operator for ClickHouse®
+
+- [Amazon VPC Endpoints](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/v1_connections/amazon-vpc-endpoint_v1/): How to create an Amazon VPC Endpoint for Altinity.Cloud Services
+
+- [Using Amazon VPC Endpoints from Our Cloud](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/amazon-vpc-endpoints/amazon-vpc-endpoint-saas/): Configure Altinity.Cloud to access Amazon VPC endpoints from Altinity&#39;s cloud
+
+- [Using Amazon VPC Endpoints from Your Cloud Account](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/amazon-vpc-endpoints/amazon-vpc-endpoint-byoc/): Configure Altinity.Cloud to access Amazon VPC endpoints from your cloud
+
+- [Using Amazon VPC Endpoints from Your Kubernetes Environment](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/amazon-vpc-endpoints/amazon-vpc-endpoint-byok/): Configure Altinity.Cloud to access Amazon VPC endpoints from your Kubernetes environment
+
+- [Configuring Network Access](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/configuring-network-access/): Defining network connections for your environment
+
+- [Appendix: Using Altinity.Cloud with minikube](https://docs.altinity.com/altinitycloud/quickstartguide/running-in-your-cloud-byok/minikube/): **For testing and development use only**
+
+  *Keywords: minikube,, ClickHouse,, Altinity.Cloud*
+- [Accessing an AWS MSK cluster from Altinity.Cloud](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/v1_connections/amazon-vpc-endpoint-services-kafka_v1/): How to connect Altinity.Cloud to Amazon MSK within your VPC
+
+- [Defining Custom Node Types](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/defining-custom-node-types/): Setting up resources for your ClickHouse® clusters
+
+- [Enabling Iceberg Catalogs](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/enabling-an-iceberg-catalog/): Connecting to Iceberg catalogs
+
+- [GCP Private Service Connect](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/gcp-private-service-connect/): How to create a GCP PSC for your private services 
+
+- [GCP Private Service Connect](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/v1_connections/gcp_private_service_connect_v1/): How to create a GCP PSC for Altinity.Cloud clusters 
+
+- [Deleting an environment](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-actions/deleting-an-environment-actions-menu/): Deleting your environment (and possibly your ClickHouse® clusters and data, too)
+
+- [Configuring Zookeepers](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/configuring-zookeepers/): Deploying, scaling, and managing Zookeepers
+
+- [Viewing Environment Audit Logs](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/viewing-audit-logs/): Getting details if something goes wrong
+
+- [Configuring the Altinity Kubernetes Operator for ClickHouse®](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/operator-configuration/): Defining how the operator should work
+
+- [Environment Configuration Templates](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/environment-configuration-templates/): Creating repeatable environment deployments
+
+- [Defining Maintenance Windows](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/defining-maintenance-windows/): Making sure maintenance happens when you want it to
+
+- [Cost Allocation Tags](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/cost-allocation-tags/): Labeling resources for tracking costs and chargebacks
+
+- [Altinity Cloud Manager 26.2.33 Release Notes](https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/26.2.33/): Changelog The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+26.2.33 2026-06-10 Added Scheduled SQL statements …
+- [Altinity Cloud Manager 26.1.41 Release Notes](https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/26.1.41/): Changelog The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+26.1.41 2026-04-07 Added Current and previous …
+- [Altinity Cloud Manager 25.7.31 Release Notes](https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/25.7.31/): Changelog The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+25.7.31 2026-02-02 Added The &lsquo;Used&rsquo; …
+- [Altinity Cloud Manager 25.6.35 Release Notes](https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/25.6.35/): The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+25.6.40 hotfix 2026-01-13 Fixed Fixed Auth0 login screen …
+- [Altinity Cloud Manager 25.5.20 Release Notes](https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/25.5.17/): The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+25.5.20 2025-10-20 Added Added a confirmation when executing …
+- [Altinity Cloud Manager 25.4.14 Release Notes](https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/25.4.14/): The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+25.4.14 Released 2025-08-07
+Added Multiple Iceberg catalogs …
+- [Altinity Cloud Manager 25.3.34 Release Notes](https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/25.3.34/): The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+25.3.34 Released 2025-06-25
+Added Iceberg catalog is now …
+- [Altinity Cloud Manager 25.2.45 Release Notes](https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/25.2.45/): The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+25.2.45 Released 2025-05-03
+Added Node pool capacity can now …
+- [Altinity Cloud Manager 25.1.46 Release Notes](https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/25.1.46/): The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+25.1.46 Released 2025-03-05
+Added New feature to map users …
+- [Altinity Cloud Manager 25.1.12 Release Notes](https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/25.1.12/): The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+25.1.12-rc Released 2025-01-23
+Changed clickhouse-copier …
+- [Altinity Cloud Manager Release Notes - Older releases](https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/22.12.25/): These are the release notes for older versions of Altinity Cloud Manager. You can go directly to a particular release through one of these links:
+2024 …
+- [](https://docs.altinity.com/search/): 
+- [Integrating Superset with ClickHouse®](https://docs.altinity.com/integrations/clickhouse-and-superset/): How to connect Apache Superset with ClickHouse®
+
+- [Altinity Stable® Builds Install Guide](https://docs.altinity.com/altinitystablebuilds/stablequickstartguide/): How to install Altinity Stable® Builds for ClickHouse®
+
+- [Integrating Tableau with ClickHouse®](https://docs.altinity.com/integrations/clickhouse-and-tableau/): How to connect Tableau with ClickHouse®
+
+- [ClickHouse® Cluster with Zookeeper Production Configuration Guide](https://docs.altinity.com/operationsguide/clickhouse-cluster-in-production/): Best practices on a ClickHouse® on Kubernetes Production configuration.
+
+- [ClickHouse® ODBC Driver](https://docs.altinity.com/integrations/clickhouse-odbc-driver/): Installing and configuring the ClickHouse® ODBC Driver
+
+- [Working with Environments](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/): Creating an Environment for your ClickHouse® clusters
+
+  *Keywords: environments, working with environments*
+- [Altinity Stable® Build for ClickHouse® 26.3](https://docs.altinity.com/releasenotes/altinity-stable-release-notes/26.3/): Here are the detailed release notes for version 26.3.
+Release history Version 26.3.16.10001 is the latest release. We recommend that you use this …
+- [Altinity Stable® Build for ClickHouse® 25.8](https://docs.altinity.com/releasenotes/altinity-stable-release-notes/25.8/): Here are the detailed release notes for version 25.8.
+Release history Version 25.8.16.10002 is the latest release. We recommend that you use this …
+- [Altinity Stable® Build for ClickHouse® 25.3](https://docs.altinity.com/releasenotes/altinity-stable-release-notes/25.3/): Here are the detailed release notes for version 25.3.
+Release history Version 25.3.8.10042 is the latest release. We recommend that you upgrade to one …
+- [Altinity.Cloud](https://docs.altinity.com/altinitycloud/): Manuals, quick start guides, code samples and tutorials on how to use Altinity.Cloud to launch and get the most out of your ClickHouse® clusters.
+
+  *Keywords: managed clickhouse, Altinity.Cloud guide, clickhouse cloud*
+- [Altinity Stable® Build for ClickHouse® 24.8](https://docs.altinity.com/releasenotes/altinity-stable-release-notes/24.8/): Here are the detailed release notes for version 24.8.
+Release history Version 24.8.14.10546 is the latest release. We recommend that you upgrade to …
+- [Altinity Project Antalya Builds for ClickHouse® 26.3](https://docs.altinity.com/releasenotes/altinity-antalya-release-notes/26.3/): Here are the detailed release notes for Altinity Project Antalya build version 26.3. For more details on the project, see:
+The project&#39;s README …
+- [Altinity Project Antalya Builds for ClickHouse® 26.1](https://docs.altinity.com/releasenotes/altinity-antalya-release-notes/26.1/): Here are the detailed release notes for Altinity Project Antalya build version 26.1. For more details on the project, see:
+The project&#39;s README …
+- [Project Antalya](https://docs.altinity.com/altinityantalya/): Delivering the foundation for the next decade of real-time analytic applications
+- [Altinity Cloud Manager Release Notes](https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/): Here are the most recent release notes, organized by major release and release date:
+- [Altinity Stable® Build for ClickHouse® 24.3](https://docs.altinity.com/releasenotes/altinity-stable-release-notes/24.3/): Here are the detailed release notes and upgrade instructions for version 24.3.
+Release history Version 24.3.18.10426 is the latest release. We …
+- [Keeping Your Clusters and Data](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/deleting-an-environment/keeping-your-clusters-and-data/): Deleting Altinity&#39;s access to your environment without disturbing your clusters and data
+
+- [Quick Start Guide](https://docs.altinity.com/altinitykubernetesoperator/kubernetesquickstartguide/): Setting up a ClickHouse® cluster quickly with the Altinity Kubernetes Operator for ClickHouse
+
+- [Security](https://docs.altinity.com/operationsguide/security/): Security settings and best practices for ClickHouse®
+
+- [Altinity Project Antalya Builds for ClickHouse® Release Notes](https://docs.altinity.com/releasenotes/altinity-antalya-release-notes/): Altinity&rsquo;s open-source Project Antalya is a new branch of ClickHouse® designed to combine Clickhouse&rsquo;s lightning-fast queries with Data …
+- [Altinity Project Antalya Builds for ClickHouse® 25.8](https://docs.altinity.com/releasenotes/altinity-antalya-release-notes/25.8/): Here are the detailed release notes for Altinity Project Antalya build version 25.8. For more details on the project, see:
+The project&#39;s README …
+- [Care and Feeding of Zookeeper with ClickHouse®](https://docs.altinity.com/operationsguide/clickhouse-zookeeper/): Installing, configuring, and recovering Zookeeper
+
+- [Altinity Stable® Builds for ClickHouse® Release Notes](https://docs.altinity.com/releasenotes/altinity-stable-release-notes/): These release notes are for:
+Altinity Stable Builds for ClickHouse, releases built by Altinity and supported for three full years Altinity Stable …
+- [Altinity Project Antalya Builds for ClickHouse® 25.6](https://docs.altinity.com/releasenotes/altinity-antalya-release-notes/25.6/): Here are the detailed release notes for Altinity Project Antalya build version 25.6. For more details on the project, see:
+The project&#39;s README …
+- [Altinity Stable® Build for ClickHouse® 23.8](https://docs.altinity.com/releasenotes/altinity-stable-release-notes/23.8/): Here are the detailed release notes and upgrade instructions for version 23.8.8.21. There are a lot of new features, but also many things that changed …
+- [Altinity Stable® and FIPS-Compatible Builds](https://docs.altinity.com/altinitystablebuilds/): ClickHouse® tested and verified for production use with 3 years of support.
+
+  *Keywords: Altinity Stable Build, ClickHouse builds, clickhouse upstream builds*
+- [Configuring the Operator](https://docs.altinity.com/altinitykubernetesoperator/kubernetesoperatorguide/): Installation and Management of the Altinity Kubernetes Operator for ClickHouse®
+
+- [Configuring your Environment](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-config/): Setting things up
+
+  *Keywords: editing, an, environment*
+- [Connecting other tools to Altinity.Cloud](https://docs.altinity.com/altinitycloud/administratorguide/integrations/): Integrating useful tools with Altinity.Cloud
+
+- [High Availability and Disaster Recovery](https://docs.altinity.com/operationsguide/availability-and-recovery/): Best Practices recovering a disaster and keeping ClickHouse® available.
+
+- [Project Antalya Quick Start Guide](https://docs.altinity.com/altinityantalya/antalya-quick-start-guide/): Getting up to speed with Project Antalya
+- [Altinity Stable® FIPS-Compatible Builds for ClickHouse® Release Notes](https://docs.altinity.com/releasenotes/altinity-stable-fips-compatible-release-notes/): These are the release notes for Altinity Stable® FIPS-Compatible builds for ClickHouse®.
+Release history Here are the currently supported releases of …
+- [Altinity Software Releases](https://docs.altinity.com/releasenotes/): List of releases of Altinity Software
+- [Altinity Kubernetes Operator for ClickHouse® Release Notes](https://docs.altinity.com/releasenotes/altinity-kubernetes-operator-release-notes/): The latest release of the Altinity Kubernetes Operator for ClickHouse® is always available at …
+- [Altinity Stable® Build for ClickHouse® 23.3](https://docs.altinity.com/releasenotes/altinity-stable-release-notes/23.3/): It has been a while since we have certified the Altinity.Stable ClickHouse 22.8 release. It was delivered together with the Altinity Stable build for …
+- [Administrator Guide](https://docs.altinity.com/altinitycloud/administratorguide/): How to manage Altinity.Cloud.
+
+- [Common Actions](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/environment-actions/): Things you&#39;re likely to do with your Environment
+
+- [Connecting ClickHouse® to Apache Kafka®](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/connecting_to_kafka/): How to connect a ClickHouse® cluster to a Kafka server
+
+- [Security Guide](https://docs.altinity.com/altinitycloud/securityguide/): How to keep your account and your data secure
+
+- [Amazon VPC Endpoints](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/amazon-vpc-endpoints/): Connecting to your AWS resources from Altinity.Cloud 
+
+- [Altinity Backup for ClickHouse® Release Notes](https://docs.altinity.com/releasenotes/altinity-backup-release-notes/): The latest release of the Altinity Backup for ClickHouse® utility is always available at …
+- [Altinity Project Antalya Builds for ClickHouse® 25.3](https://docs.altinity.com/releasenotes/altinity-antalya-release-notes/25.3/): Here are the detailed release notes for Altinity Project Antalya build version 25.3. For more details on the project, see:
+The project&#39;s README …
+- [Altinity Kubernetes Operator for ClickHouse®](https://docs.altinity.com/altinitykubernetesoperator/): Running ClickHouse® on Kubernetes
+
+  *Keywords: operator, kubernetes, operator*
+- [Backing up and Restoring Data](https://docs.altinity.com/altinitycloud/administratorguide/backing-up-and-restoring-data/): Working with backups
+
+- [Connecting to Altinity.Cloud](https://docs.altinity.com/altinitycloud/altinity-cloud-connections/): Connecting Altinity.Cloud with other services.
+
+- [Altinity Sink Connector for ClickHouse® Release Notes](https://docs.altinity.com/releasenotes/altinity-sink-connector-release-notes/): The Altinity Sink Connector for ClickHouse® moves data automatically from transactional database tables in MySQL and PostgreSQL to ClickHouse for …
+- [Altinity Grafana Plugin for ClickHouse® Release Notes](https://docs.altinity.com/releasenotes/altinity-grafana-release-notes/): The latest release of the Altinity Grafana Datasource Plugin for ClickHouse® is always available at …
+- [Altinity Operations Guide](https://docs.altinity.com/operationsguide/): Recommended practices and procedures
+
+- [Billing](https://docs.altinity.com/altinitycloud/administratorguide/billing/): Managing billing for your Altinity.Cloud account
+
+- [Altinity Tableau Connector for ClickHouse® Release Notes](https://docs.altinity.com/releasenotes/tableau-connector-for-clickhouse-release-notes/): The latest release of the Altinity Tableau Connector for ClickHouse® is always available at …
+- [Integrations](https://docs.altinity.com/integrations/): How to connect ClickHouse® to other services or replace them.
+
+- [ODBC Driver for ClickHouse® Release Notes](https://docs.altinity.com/releasenotes/odbc-for-clickhouse-release-notes/): The latest release of the ODBC Driver for ClickHouse® is always available at https://github.com/ClickHouse/clickhouse-odbc/releases/latest.
+Here are …
+- [Deleting an Environment](https://docs.altinity.com/altinitycloud/administratorguide/working-with-environments/deleting-an-environment/): Deleting (or maybe just disconnecting) your Altinity.Cloud Environment
+
+- [Altinity Stable® Builds and Releases for ClickHouse® - Older versions](https://docs.altinity.com/releasenotes/altinity-stable-release-notes/20.8/): Here are the release notes from older versions of Altinity Stable® Builds for ClickHouse®.
+NOTE These releases are all past end-of-life. The …
+- [Altinity® 24/7 support](https://docs.altinity.com/support/): How to get support for Altinity.Cloud®, Altinity.Cloud Anywhere, and ClickHouse® itself.
+- [ClickHouse TTLs in Practice (eBook)](https://docs.altinity.com/upgrade_ebook/): 
+- [ClickHouse Cluster Maintenance eBook](https://docs.altinity.com/maintenance_ebook/): 

@@ -1,0 +1,28 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/
+versioning:
+  scheme: calver
+  pattern: YY.M.PATCH
+  current: 26.2.43
+  docs: https://docs.altinity.com/releasenotes/altinity-cloud-manager-release-notes/
+  notes: >-
+    Altinity Cloud Manager and the ACM API version together on CalVer
+    (two-digit year . month . build). The OpenAPI info.version tracks the ACM
+    build (26.2.43 at capture).
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No formal API deprecation policy / RFC 8594 Sunset header support was found in the docs.
+sla:
+  url: https://docs.altinity.com/support/
+  notes: >-
+    Altinity.Cloud is a 24/7 managed service; support tiers (Enterprise/Premium
+    BYOC) are described in the support docs. No public numeric uptime SLA page
+    was found.
+status_page:
+  url: null
+  notes: >-
+    System status is exposed inside the Altinity Cloud Manager (System Status
+    menu) per user/cluster; no public status.altinity.cloud page was found.
+deprecated_operations: []

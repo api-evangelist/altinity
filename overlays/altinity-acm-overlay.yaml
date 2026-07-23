@@ -1,0 +1,28 @@
+overlay: 1.0.0
+info:
+  title: API Evangelist enhancements for Altinity Cloud Manager API
+  version: 1.0.0
+extends: openapi/altinity-acm-openapi-original.json
+actions:
+- target: $.info
+  update:
+    x-apievangelist-provider: altinity
+    x-apievangelist-enriched: '2026-07-17'
+    x-apievangelist-notes: >-
+      Published spec covers the authentication/login/signup surface of the ACM
+      API. The full cluster/environment management surface is documented at
+      docs.altinity.com but not in this reference.json.
+- target: $.components.securitySchemes.ApiKeyAuth
+  update:
+    description: >-
+      ACM API key passed in the X-Auth-Token header. Keys are generated under My
+      Account > API Access (default 24h expiry, adjustable); a login token from
+      POST /login may also be used.
+- target: $
+  update:
+    x-agentic-access:
+      audience: null
+      note: >-
+        Login/signup/auth surface. Treat POST /login, /login/verify and
+        /singleauth as authentication (read-then-token) rather than acting
+        operations; SignupQuick creates a trial account (write, low consequence).
