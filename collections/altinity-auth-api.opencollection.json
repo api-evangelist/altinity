@@ -1,0 +1,188 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Altinity Cloud Manager Auth API",
+    "version": "26.2.43"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Auth",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Provides a token for a pair of users login and password",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://acm.altinity.cloud/api/login",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Provides a token for a pair of users login and password"
+        },
+        {
+          "info": {
+            "name": "Sends out an email with password reset link",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://acm.altinity.cloud/api/login/recover",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Sends out an email with password reset link"
+        },
+        {
+          "info": {
+            "name": "Checks whether password reset token is active",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://acm.altinity.cloud/api/login/reset",
+            "params": [
+              {
+                "name": "code",
+                "value": "",
+                "type": "query"
+              }
+            ]
+          },
+          "docs": "Checks whether password reset token is active"
+        },
+        {
+          "info": {
+            "name": "Checks whether password reset token is active",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://acm.altinity.cloud/api/login/reset",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Checks whether password reset token is active"
+        },
+        {
+          "info": {
+            "name": "Login with 2FA verification code",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://acm.altinity.cloud/api/login/verify",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Login with 2FA verification code"
+        },
+        {
+          "info": {
+            "name": "System probe",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://acm.altinity.cloud/api/probe"
+          },
+          "docs": "System probe"
+        },
+        {
+          "info": {
+            "name": "Creates a trial account in Altinity.Cloud using only Email",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://acm.altinity.cloud/api/signup-email",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Creates a trial account in Altinity.Cloud using only Email"
+        },
+        {
+          "info": {
+            "name": "Checks whether signup token is active",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://acm.altinity.cloud/api/signup/confirm",
+            "params": [
+              {
+                "name": "code",
+                "value": "",
+                "type": "query"
+              }
+            ]
+          },
+          "docs": "Checks whether signup token is active"
+        },
+        {
+          "info": {
+            "name": "Finishes up signup procedure",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://acm.altinity.cloud/api/signup/confirm",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Finishes up signup procedure"
+        },
+        {
+          "info": {
+            "name": "Provides with a target URL for Auth0",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://acm.altinity.cloud/api/singleauth",
+            "params": [
+              {
+                "name": "type",
+                "value": "",
+                "type": "query"
+              }
+            ]
+          },
+          "docs": "Provides with a target URL for Auth0"
+        },
+        {
+          "info": {
+            "name": "Authenticate user with Auth0 oAuth token",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://acm.altinity.cloud/api/singleauth",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Authenticate user with Auth0 oAuth token"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
