@@ -43,6 +43,16 @@ tags:
 - Managed Cloud
 - Kubernetes
 - Real-Time Analytics
+- Open-Source
+tags_raw:
+- Company
+- Big Data
+- ClickHouse
+- Analytics
+- Database
+- Managed Cloud
+- Kubernetes
+- Real-Time Analytics
 - Open Source
 apis:
 - aid: altinity:altinity-auth-api
@@ -51,6 +61,8 @@ apis:
   humanURL: https://docs.altinity.com/altinitycloud/administratorguide/acm-api-quickstart/
   baseURL: https://acm.altinity.cloud/api/
   tags:
+  - Authentication
+  tags_raw:
   - Auth
   properties:
   - type: OpenAPI
