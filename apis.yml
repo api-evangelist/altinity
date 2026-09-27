@@ -55,7 +55,7 @@ tags:
 - Managed Cloud
 - Kubernetes
 - Real-Time Analytics
-- Open-Source
+- Open Source
 tags_raw:
 - Company
 - Big Data
@@ -66,6 +66,7 @@ tags_raw:
 - Kubernetes
 - Real-Time Analytics
 - Open Source
+- Open-Source
 apis:
 - aid: altinity:altinity-auth-api
   name: Altinity Auth API
