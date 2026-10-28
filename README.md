@@ -64,6 +64,114 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Altinity is a company surfaced as a portfolio company of accel and added to the API Evangelist network as a stub for enrichment. Sector: big-data. This profile is a lead awaiting the enrichment pipeline.
+Altinity is the enterprise provider for open-source ClickHouse, the real-time analytical database. It builds and operates Altinity.Cloud, a fully managed ClickHouse service available on AWS, GCP, Azure and Hetzner, plus a bring-your-own-cloud (BYOC) option, and delivers 24/7 expert support, performance tuning, and training. Altinity is a leading ClickHouse contributor and maintains widely used open-source tooling including the Altinity Kubernetes Operator for ClickHouse, clickhouse-backup, the clickhouse-sink-connector, a Grafana datasource plugin, Altinity Stable Builds, and an official MCP server for AI agents. Its Altinity Cloud Manager (ACM) exposes a REST API for managing environments and ClickHouse clusters programmatically.
 
-Backed by: accel — https://altinity.com/
+**Areas:** Company · Big Data · ClickHouse · Analytics · Database · Managed Cloud · Kubernetes · Real-Time Analytics · Open Source
+
+## Altinity on APIs.io
+
+Everything profiled for Altinity is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/altinity/](https://apis.io/providers/altinity/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Altinity Auth API](https://apis.io/apis/altinity/altinity-auth-api/) — The Auth API from Altinity — 8 operation(s) for auth.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [altinity-mcp](https://apis.io/servers/altinity/altinity-mcp/)
+
+#### Collections (1)
+
+Postman and Open Collection request collections.
+
+- [Altinity Cloud Manager Auth API](https://apis.io/collections/altinity/open-altinity-auth-api/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Altinity Acm Overlay](https://apis.io/overlays/altinity/altinity-acm-overlay/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Altinity Authentication](https://apis.io/security/altinity/altinity-authentication/)
+- [Altinity Domain Security](https://apis.io/security/altinity/altinity-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://altinity.com/)
+- [Documentation](https://docs.altinity.com/)
+- [Getting started](https://docs.altinity.com/altinitycloud/altinity-cloud-101/)
+- [API reference](https://acm.altinity.cloud/docs/)
+- [Pricing](https://altinity.com/clickhouse-pricing/)
+- [Sign up](https://acm.altinity.cloud/signup)
+- [Support](https://docs.altinity.com/support/)
+- [Blog](https://altinity.com/blog/)
+- [Terms of service](https://altinity.com/wp-content/uploads/2022/09/Altinity.Cloud-Terms-of-Service.pdf)
+- [Privacy policy](https://altinity.com/privacy-policy/)
+- [GitHub](https://github.com/altinity)
+
+## API Evangelist rating
+
+**Kin Score 40.9** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 42.2 |
+| Contract governance | 4.5 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 66.1 |
+| Access clarity | 31.6 |
+
+**Agent readiness 20.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/altinity/](https://apis.io/providers/altinity/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Altinity: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/altinity/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
